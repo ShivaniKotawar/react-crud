@@ -140,10 +140,10 @@ class TutorialsList extends Component {
                                     {currentTutorial.published ? "Published" : "Pending"}
                                 </div>
 
-                                <Link>
+                                <Link
                                     to={"/tutorials/" + currentTutorial.id}
-                                    className="badge badge-warning"
-                                >
+                                    className="badge badge-warning">
+                                
                                     Edit
                                 </Link>
                             </div>
